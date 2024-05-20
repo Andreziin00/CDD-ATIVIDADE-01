@@ -42,7 +42,7 @@ class Pessoa:
     def pararAndar(self):
         if self.andando == True:
             print(f'{self.nome} parou de andar...')
-            self.comendo = False
+            self.andando = False
         else:
             print(f'{self.nome} ja esta parado!')
 
